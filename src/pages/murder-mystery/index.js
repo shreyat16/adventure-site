@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import Message from "../../components/Message/Message"
 import "./index.css"
 
-class MurderMystery extends Component {
+class MurderMysteryPage extends Component {
   render() {
     return (
       <div className="MurderMystery">
@@ -14,4 +14,4 @@ class MurderMystery extends Component {
   }
 }
 
-export default MurderMystery
+export default MurderMysteryPage

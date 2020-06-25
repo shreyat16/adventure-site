@@ -3,7 +3,7 @@ import Message from "../../components/Message/Message"
 import { Link } from "gatsby"
 import "./index.css"
 
-class Zombie extends React.Component {
+class ZombiePage extends React.Component {
   render() {
     return (
       <div className="Zombie">
@@ -37,4 +37,4 @@ class Zombie extends React.Component {
   }
 }
 
-export default Zombie
+export default ZombiePage
