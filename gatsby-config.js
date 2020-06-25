@@ -13,8 +13,37 @@ module.exports = {
     //     path: `${__dirname}/src/images`,
     //   },
     // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `zombies`,
+        path: `${__dirname}/src/content/zombies/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `murder-mystery`,
+        path: `${__dirname}/src/content/murder-mystery/`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1440,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
