@@ -1,5 +1,6 @@
 import React from "react"
 import Message from "../../components/Message/Message"
+import { Link } from "gatsby"
 
 class ZChoice12Page extends React.Component {
   render() {
@@ -16,6 +17,13 @@ class ZChoice12Page extends React.Component {
           that she’s a broke college girl. You know for a fact that she won the
           lottery last month. Your girlfriend is acting weird with you and you
           don’t know what to do.
+          <h2>
+            <Link to="/zombies/z-choice-1-2-1">Say you have to go to your shift at the shake shop called Shake It Up</Link>
+          </h2>
+          <h2>
+            <Link to="/zombies/z-choice-1-2-2">Say you need to run an errand</Link>
+          </h2>
+          
         </Message>
       </div>
     )

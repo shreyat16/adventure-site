@@ -1,4 +1,4 @@
-.VendingMachine {
+.Index {
     
     text-align: center;
     width: 100vw;
@@ -9,7 +9,7 @@
     justify-content: space-between;
   }
   
-  .VendingMachine .Message {
+  .Index .Message {
     width: 30%;
   }
   
@@ -22,18 +22,11 @@
     text-decoration: underline;
   }
   
-  .subtitle{
-    color:lightgreen;
-  }
-
-  .subsubtitle{
-    color:lightpink;
-  }
 
   .menu{
-    color:lightgreen;
+    color:lightblue;
   }
 
   .menutitle{
-    color:lightpink;
+    color:lightskyblue;
   }

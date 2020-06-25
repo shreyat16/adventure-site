@@ -5,7 +5,9 @@ class LosePage extends React.Component {
   render() {
     return (
       <div className="Lose">
-        <Message>You lose</Message>
+        <Message>
+          You lose! The zombies got you!
+        </Message>
       </div>
     )
   }

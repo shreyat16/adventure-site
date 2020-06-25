@@ -7,20 +7,12 @@ class HomePage extends Component {
   render() {
     return (
       <div
-        className="VendingMachine"
-        style={{ backgroundImage: `url('/bgimg.png')` }}
+        className="Index"
+        style={{ backgroundImage: `url('/bg.jpg')` }}
       >
         <Message>
-          <h1>Hello, welcome to choose you own adventure. </h1>
-          <h1 className="subtitle">bored?.</h1>
-          <h2 className="subsubtitle">
-            Prepare to embark on the most dangerous adventures
-          </h2>
-          <h2 className="subtitle">enter at your own risk</h2>
-        </Message>
-        <Message>
           <div className="menu">
-            <h1 className="menutitle">choose wisely</h1>
+            <h1 className="menutitle">Welcome to Choose Your Own Adventure</h1>
             <h1>Which adventure would you like to embark on?</h1>
           </div>
           <h2>
