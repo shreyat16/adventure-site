@@ -1,0 +1,33 @@
+.Candy {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -3;
+  }
+  
+  .Candy button {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    text-transform: lowercase;
+    background-color: lightpink;
+  }
+  
+  .Candy button:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+  }
+  
+  .Candy button:active,
+  .Candy button:focus {
+    outline: none;
+  }
+  
+  .onecandy {
+    position: absolute;
+    z-index: -2;
+  }
+  
