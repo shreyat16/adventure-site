@@ -1,22 +1,38 @@
-import React from "react"
+import React, { Component } from "react"
+import "./index.css"
 import { Link } from "gatsby"
+import Message from "../components/Message/Message"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+class HomePage extends Component {
+  render() {
+    return (
+      <div
+        className="VendingMachine"
+        style={{ backgroundImage: `url('/bgimg.png')` }}
+      >
+        <Message>
+          <h1>Hello, welcome to choose you own adventure. </h1>
+          <h1 className="subtitle">bored?.</h1>
+          <h2 className="subsubtitle">
+            Prepare to embark on the most dangerous adventures
+          </h2>
+          <h2 className="subtitle">enter at your own risk</h2>
+        </Message>
+        <Message>
+          <div className="menu">
+            <h1 className="menutitle">choose wisely</h1>
+            <h1>Which adventure would you like to embark on?</h1>
+          </div>
+          <h2>
+            <Link to="/zombies/">Zombie 🧟‍♂️</Link>
+          </h2>
+          <h2>
+            <Link to="/murder-mystery/">Murder Mystery 🍸</Link>
+          </h2>
+        </Message>
+      </div>
+    )
+  }
+}
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
-
-export default IndexPage
+export default HomePage
