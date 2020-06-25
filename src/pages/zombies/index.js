@@ -25,10 +25,10 @@ class ZombiePage extends React.Component {
           </Message>
           <Message>
             <h2>
-              <Link to="/zombies/z-choice-1">Meet up with your girlfriend</Link>
+              <Link to="/zombies/1">Meet up with your girlfriend</Link>
             </h2>
             <h2>
-              <Link to="/zombies/z-choice-2">Go to the store</Link>
+              <Link to="/zombies/2">Go to the store</Link>
             </h2>
           </Message>
         </div>
