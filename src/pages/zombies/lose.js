@@ -1,5 +1,6 @@
 import React from "react"
 import Message from "../../components/Message/Message"
+import "./lose.css"
 
 class LosePage extends React.Component {
   render() {

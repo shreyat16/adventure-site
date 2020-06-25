@@ -21,7 +21,7 @@ class ZChoice1Page extends React.Component {
             <Link to="/zombies/lose">The same burger to support her</Link>
           </h2>
           <h2>
-            <Link to="/zombies/z-choice-1-2">A hotdog</Link>
+            <Link to="/zombies/z-choice-1-2">A hotdog because you think spinach is nasty</Link>
           </h2>
         </Message>
       </div>
