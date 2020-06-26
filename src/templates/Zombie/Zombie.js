@@ -46,7 +46,7 @@ export default function Zombie({data}) {
         </div>
         <div className="story" dangerouslySetInnerHTML={{__html: data.current.html}} />
         <div className="choicesstyle">
-          <h3>Should you...</h3>
+          <h3>Do you want to...</h3>
           {data.choiceOne && (
             <div>
             <Link style={{color: "red"}} to={data.choiceOne.fields.slug}>{data.choiceOne.frontmatter.title}</Link>
