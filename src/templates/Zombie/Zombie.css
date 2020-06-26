@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Roboto+Slab:wght@500&display=swap');
+
 .zombie__featured-image {
   max-width: 700px;
   max-height: 400px;
@@ -7,4 +9,33 @@
 
 .zombie-1 .zombie__featured-image {
   /* target a specific page */
+}
+
+.Zombies{
+  color: #23e000;
+  background-color: black;
+  background-size: cover;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 3px;
+  padding: 2rem;
+  font-size: 20px;
+}
+
+.titlestyle{
+  font-family: 'Piedra', cursive;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.choicesstyle{
+  color:red;
+  background-color: rgb(37, 36, 36);
+  margin-top: 1rem;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  text-align: center;
+  border-radius: 30px;
 }
