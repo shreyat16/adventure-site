@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+
 .Index {
     
     text-align: center;
@@ -28,5 +30,24 @@
   }
 
   .menutitle{
-    color:lightskyblue;
+    color:rgb(74, 161, 216);
+    font-size: 40px;
+    font-family: 'Fontdiner Swanky', cursive;
+    text-shadow: 2px 2px 5px rgb(4, 0, 255);
   }
+
+  .menusubtitle{
+    color:rgb(18, 158, 100);
+    font-size: 30px;
+    font-family: 'Fontdiner Swanky', cursive;
+    text-shadow: 2px 2px 5px rgb(9, 88, 2);
+  }
+
+  .pagelink{
+    font-size: 30px;
+    color: rgb(65, 163, 255);
+    text-shadow: 2px 2px 5px red;
+    text-transform: uppercase;
+  }
+
+  

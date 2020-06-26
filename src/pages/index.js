@@ -13,14 +13,14 @@ class HomePage extends Component {
         <Message>
           <div className="menu">
             <h1 className="menutitle">Welcome to Choose Your Own Adventure</h1>
-            <h1>Which adventure would you like to embark on?</h1>
+            <h1 className="menusubtitle">Which adventure would you like to embark on?</h1>
           </div>
-          <h2>
-            <Link to="/zombies/">Zombie 🧟‍♂️</Link>
-          </h2>
-          <h2>
-            <Link to="/murder-mystery/">Murder Mystery 🍸</Link>
-          </h2>
+          <div>
+            <Link className= "pagelink" to="/zombies/">Zombie Survival 🧟‍♂️</Link>
+          </div>
+          <div>
+            <Link className= "pagelink" to="/murder-mystery/">Murder Mystery 🍸</Link>
+          </div>
         </Message>
       </div>
     )

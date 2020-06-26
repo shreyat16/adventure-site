@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&family=Roboto+Slab:wght@500&display=swap');
 
 .zombie__featured-image {
-  max-width: 700px;
-  max-height: 400px;
+  max-width: 600px;
+  max-height: 200px;
   margin: 0 auto;
   object-fit: contain;
 }
@@ -12,20 +12,15 @@
 }
 
 .Zombies{
-  color: #23e000;
+  color: #1fc700;
   background-color: black;
-  background-size: cover;
+  width:80%;
   font-family: 'Roboto Slab', serif;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   padding: 2rem;
   font-size: 20px;
-}
-
-.titlestyle{
-  font-family: 'Piedra', cursive;
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  font-size: 25px;
+  text-align: center;
+  margin:0 auto;
 }
 
 .choicesstyle{
@@ -37,5 +32,52 @@
   padding-bottom: 30px;
   padding-left: 60px;
   text-align: center;
-  border-radius: 30px;
+  border-radius: 10px;
+}
+
+.backbutton{
+  color: white;
+}
+
+.titleanimation{
+  font-family: 'Piedra', cursive;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 37em;
+  animation: type 4s steps(60, end); 
+}
+
+.titleanimation:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+.titleanimation a{
+  color: lime;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
 }

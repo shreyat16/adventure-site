@@ -52,11 +52,11 @@ export default function Zombie({data}) {
           <Img className="zombie__featured-image" fluid={data.current.frontmatter.featuredImage.childImageSharp.fluid} />
         )}
         <div className="titlestyle">
-          <h1>You chose: {data.current.frontmatter.title}</h1>
+          <h1 className="titleanimation">You chose: {data.current.frontmatter.title}</h1>
         </div>
         <div dangerouslySetInnerHTML={{__html: data.current.html}} />
         <div className="choicesstyle">
-          <h2>Should you...</h2>
+          <h3>Should you...</h3>
           {data.choiceOne && (
             <div>
             <Link style={{color: "red"}} to={data.choiceOne.fields.slug}>{data.choiceOne.frontmatter.title}</Link>
@@ -73,7 +73,8 @@ export default function Zombie({data}) {
             </div>
           )}
         </div>
-        
+        <h3 className="backbutton"><Link to="/zombies/"> RETURN TO HOME ‍</Link></h3>
+        <h3 className="backbutton"><Link to="/"> RETURN TO MAIN MENU ‍</Link></h3>
       </div>
     </div>
     
