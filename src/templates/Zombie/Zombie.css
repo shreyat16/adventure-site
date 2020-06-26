@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&family=Roboto+Slab:wght@500&display=swap');
 
 .zombie__featured-image {
-  max-width: 600px;
-  max-height: 200px;
-  margin: 0 auto;
-  object-fit: contain;
+  max-width: 0px;
+  max-height: 0px;
 }
 
 .zombie-1 .zombie__featured-image {
@@ -48,21 +46,25 @@
   white-space: nowrap;
   overflow: hidden;
   width: 37em;
-  animation: type 4s steps(60, end); 
+  animation: type 8s steps(60, end); 
 }
 
 .titleanimation:nth-child(2){
   animation: type2 8s steps(60, end);
 }
 
+.titlestyle{
+  color: #87e976;
+}
+
 .titleanimation a{
-  color: lime;
+  color: #187208;
   text-decoration: none;
 }
 
-span{
+/* span{
   animation: blink 1s infinite;
-}
+} */
 
 @keyframes type{ 
   from { width: 0; } 
@@ -74,10 +76,15 @@ span{
   100%{ width: 100; } 
 } 
 
-@keyframes blink{
+/* @keyframes blink{
   to{opacity: .0;}
-}
+} */
 
 ::selection{
   background: black;
+}
+
+.zombies-1 .story .gatsby-resp-image-wrapper{
+  max-width: 20px !important;
+  display:block;
 }

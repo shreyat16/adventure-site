@@ -10,13 +10,6 @@ export const query = graphql`
       html
       frontmatter {
         title
-        featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 1440) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }  
       }
       fields {
         slug
@@ -48,13 +41,10 @@ export default function Zombie({data}) {
   return (
     <div className="Zombies">
         <div className={`zombies-${data.current.fields.name}`}>
-        {data.current.frontmatter.featuredImage && (
-          <Img className="zombie__featured-image" fluid={data.current.frontmatter.featuredImage.childImageSharp.fluid} />
-        )}
         <div className="titlestyle">
           <h1 className="titleanimation">You chose: {data.current.frontmatter.title}</h1>
         </div>
-        <div dangerouslySetInnerHTML={{__html: data.current.html}} />
+        <div className="story" dangerouslySetInnerHTML={{__html: data.current.html}} />
         <div className="choicesstyle">
           <h3>Should you...</h3>
           {data.choiceOne && (

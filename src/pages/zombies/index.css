@@ -59,9 +59,9 @@
     text-decoration: none;
   }
   
-  span{
+  /* span{
     animation: blink 1s infinite;
-  }
+  } */
   
   @keyframes type{ 
     from { width: 0; } 
@@ -73,9 +73,9 @@
     100%{ width: 100; } 
   } 
   
-  @keyframes blink{
+  /* @keyframes blink{
     to{opacity: .0;}
-  }
+  } */
   
   ::selection{
     background: black;
