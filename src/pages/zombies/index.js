@@ -6,7 +6,7 @@ class ZombiePage extends React.Component {
   render() {
     return (
       <div className="Zombie">
-        <h1 className="welcome">Welcome to Zombie Adventure</h1>
+        <h1 className="welcome">Welcome to Zombie Survival</h1>
 
         <div className="zstory">
             <h5 className="news">
