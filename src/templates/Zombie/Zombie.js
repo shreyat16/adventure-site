@@ -9,6 +9,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        isWinner
       }
       fields {
         slug
@@ -19,6 +20,7 @@ export const query = graphql`
     choiceOne: markdownRemark(fields: { slug: { eq: $choiceOne}}) {
       frontmatter {
         title
+        isWinner
       }
       fields {
         slug
@@ -28,6 +30,7 @@ export const query = graphql`
     choiceTwo: markdownRemark(fields: { slug: { eq: $choiceTwo}}) {
       frontmatter {
         title
+        isWinner
       }
       fields {
         slug
@@ -56,7 +59,12 @@ export default function Zombie({data}) {
             <Link style={{color: "red"}} to={data.choiceTwo.fields.slug}>{data.choiceTwo.frontmatter.title}</Link>
           </div>
         )}
-        {!data.choiceOne && !data.choiceTwo && (
+        {data.current.frontmatter.isWinner && (
+          <div>
+            <Link style={{color: "green"}} to="/zombies/win">see your fate?</Link>
+          </div>
+        )}
+        {!data.choiceOne && !data.choiceTwo && !data.current.frontmatter.isWinner && (
           <div>
             <Link style={{color: "red"}} to="/zombies/lose">see your fate?</Link>
           </div>
