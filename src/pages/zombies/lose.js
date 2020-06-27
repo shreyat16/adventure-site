@@ -12,6 +12,7 @@ class LosePage extends React.Component {
             <h2 class="dead-dude">You lost! The zombies got you! 🧟‍♂️</h2>
             <div className="backhome">
               <h1 className="dead-dude"><Link to="/zombies/"> RETURN TO HOME ‍</Link></h1>
+              <h1 className="dead-dude"><Link to="/"> RETURN TO MAIN MENU ‍</Link></h1>
             </div>
           </div>
       </div>

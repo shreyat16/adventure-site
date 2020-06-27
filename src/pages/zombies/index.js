@@ -9,20 +9,16 @@ class ZombiePage extends React.Component {
         <h1 className="welcome">Welcome to Zombie Survival</h1>
 
         <div className="zstory">
-            <h5 className="news">
-              News Flash: People have been acting weird all over Brentville
-              lately. I was talking to my boss the other day, and I casually
-              asked him what shake he was drinking. It looked delicious! He
-              said, I’m drinking a mud slide shake. Want some? I drank it and it
-              tasted sweet. Definitely not what mud tastes like. Also, y’all
-              should try out the new green spinach veggie patty! It tastes so
-              good. That’s what my boss said. burger ad You turn off the TV.
-              Doesn’t seem that interesting anyways. Also, who cares if her boss
-              was lying? You decide you want to get out of the house.
-            </h5>
+        <h5 className="news">
+              What's on the news channel today? Looks kind of interesting... <div>WATCH NEWS ↘ </div>
+          </h5>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/GBztW1GoqLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <h5 className="news">
+              You turn off the TV.
+              Well that was a scoop. That burger sounds weird. Veggies? Instead of meat? What a bust. <div>You decide you want to get out of the house.</div>
+          </h5>
           <div className="choices">
               <div className="choices-box">
-                <h3 className="shouldyoutitle">Should you...</h3>
+                <h3 className="shouldyoutitle">Do you want to...</h3>
                 <div>
                   <Link className="choices" to="/zombies/1">Meet up with your girlfriend</Link>
                 </div>
@@ -33,6 +29,7 @@ class ZombiePage extends React.Component {
           </div>
           <h3 className="backbutton"><Link to="/zombies/"> RETURN TO HOME ‍</Link></h3>
           <h3 className="backbutton"><Link to="/"> RETURN TO MAIN MENU ‍</Link></h3>
+          <div className="footer">Created by Shreya Thammana, © 2020 </div>
         </div>
       </div>
     )

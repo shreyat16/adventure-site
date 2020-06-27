@@ -10,7 +10,7 @@
 }
 
 .Zombies{
-  color: #1fc700;
+  color: #87e976;
   background-color: black;
   width:80%;
   font-family: 'Roboto Slab', serif;
@@ -54,7 +54,7 @@
 }
 
 .titlestyle{
-  color: #87e976;
+  color:#1fc700;
 }
 
 .titleanimation a{
@@ -84,7 +84,27 @@
   background: black;
 }
 
-.zombies-1 .story .gatsby-resp-image-wrapper{
-  max-width: 20px !important;
+.footer{
+  color: white;
+  font-size: 10px;
+}
+
+.gatsby-resp-image-wrapper{
+  max-width: 150px !important;
+  display:block;
+}
+
+.zombies-2-1-2-2-2-2-1-1 .story .gatsby-resp-image-wrapper{
+  max-width: 450px !important;
+  display:block;
+}
+
+.zombies-2-1-1-2-2-2-1-1 .story .gatsby-resp-image-wrapper{
+  max-width: 450px !important;
+  display:block;
+}
+
+.zombies-1-2-1-1-2-2-1 .story .gatsby-resp-image-wrapper{
+  max-width: 450px !important;
   display:block;
 }

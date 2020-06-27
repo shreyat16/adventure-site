@@ -50,5 +50,16 @@
     text-transform: uppercase;
   }
 
+  .footerclass{
+    font-size: 10px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    font-family: 'Fontdiner Swanky', cursive;
+    padding-top: 20px;
+  }
+
+
+    
   
   

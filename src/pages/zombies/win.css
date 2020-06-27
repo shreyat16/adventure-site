@@ -1,3 +1,44 @@
-.Win{
-	color: deeppink;
-}
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+.Win {
+    width: 100vw;
+    height: 100vh;
+	background-color: rgb(209, 184, 42);
+	background-size: cover;
+  }
+
+  .wintitle{
+	font-family: 'Spicy Rice', cursive;
+	text-align: center;
+	color: white;
+	font-size: 10em;
+	align-items: center;
+	padding-top: 180px;
+	text-shadow: 10px 10px 10px rgb(224, 221, 0);
+
+  }
+
+  .back{
+	  align-items: center;
+	  text-align: center;
+	  font-family: 'Spicy Rice', cursive;
+	  letter-spacing: 6px;
+	  text-transform: lowercase;
+	  font-size: 2em;
+	  text-shadow: 10px 10px 10px rgb(224, 221, 0);
+  }
+
+  .wintitle {
+	animation-name:textmove;
+	animation-duration:1s;
+	animation-iteration-count: 10;
+	/*animation-delay: 2s;*/
+	  animation-timing-function: ease-in-out;
+	/*animation-fill-mode: both;*/
+	animation-direction: alternate;
+  }
+  @keyframes textmove {
+	from {transform: translate(0);}
+	to {transform: translate(100px);}
+  } 
+  
