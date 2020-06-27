@@ -13,7 +13,7 @@ class PolicePage extends React.Component {
             <div className="backhome">
                 <div className="text">“Hi there, are you Detective Drew?”</div>
                 <div className="text">“Yes! That’s me. Do you have any information for me?”</div>
-                <div className="text">The police officer says, “Yes, as a matter of fact, I do.” “Here is a file containing the pictures of the 5 clowns, which are our major suspects right now. </div>
+                <div className="text">The police officer says, “Yes, as a matter of fact, I do.” “Here is a file containing the pictures of the 5 clowns, which are our major suspects right now." </div>
                 <ClownTemplate>
                   <Link to="/murder-mystery/file/"> View File ‍</Link>
                 </ClownTemplate>
