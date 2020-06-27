@@ -1,0 +1,16 @@
+.accuse{
+    background-color: rgb(2, 77, 2);
+    font-family: 'Crete Round', serif;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 50px;
+    border-radius: 10px;
+    color: black;
+}
+
+.accuse { transition: all .5s ease-in-out; }
+.accuse:hover { 
+    transform: scale(1.1); 
+    background-color: mediumseagreen;
+}

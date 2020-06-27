@@ -19,7 +19,7 @@ class HomePage extends Component {
               <Link className= "pagelink" to="/zombies/">Zombie Survival 🧟‍♂️</Link>
             </div>
             <div>
-              <Link className= "pagelink" to="/murder-mystery/">Murder Mystery 🍸</Link>
+              <Link className= "pagelink" to="/murder-mystery/">A Night with Clowns 🤡</Link>
             </div>
             <div className="footerclass">Created by Shreya Thammana, © 2020 </div>
         </Message>

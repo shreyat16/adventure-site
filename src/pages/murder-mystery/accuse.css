@@ -1,0 +1,17 @@
+.accusetemplate {
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: rgba(34, 110, 60, 0.726);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 2px;
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 35px;
+  }
+
+  .accusal{
+    font-size: 50px;
+  }

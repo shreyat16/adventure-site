@@ -1,0 +1,13 @@
+.NewsTemplate{
+    background-color: burlywood;
+    font-family: 'Crete Round', serif;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.NewsTemplate { transition: all 1s ease-in-out; }
+.NewsTemplate:hover { transform: scale(1.1); }
