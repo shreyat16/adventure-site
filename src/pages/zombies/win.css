@@ -11,7 +11,7 @@
 	font-family: 'Spicy Rice', cursive;
 	text-align: center;
 	color: white;
-	font-size: 10em;
+	font-size: 8em;
 	align-items: center;
 	padding-top: 180px;
 	text-shadow: 10px 10px 10px rgb(224, 221, 0);
@@ -42,3 +42,9 @@
 	to {transform: translate(100px);}
   } 
   
+  .winimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}

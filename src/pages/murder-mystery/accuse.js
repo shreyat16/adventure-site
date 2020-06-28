@@ -12,7 +12,7 @@ class AccusePage extends React.Component {
         <ClownTitle className="accusal">THE ACCUSAL</ClownTitle>
         <div>
             <div className="text">It is now time for you to accuse someone. You only get one shot, so make sure it's a good guess!</div>
-            
+            <img className="choose" src={'/choose.png'} alt="clowns" />;
             <div className="accusetemplate">
                     <div>
                         <Link to="/murder-mystery/accusebobby/"> Accuse Bobby ‍</Link>
@@ -31,6 +31,9 @@ class AccusePage extends React.Component {
                     </div>
                 </div>
           </div>
+          <h3 className="backbutton"><Link to="/murder-mystery/"> RETURN TO HOME ‍</Link></h3>
+          <h3 className="backbutton"><Link to="/"> RETURN TO MAIN MENU ‍</Link></h3>
+          <div className="footerstyle">Created by Shreya Thammana, © 2020 </div>
       </div>
     )
   }

@@ -35,7 +35,7 @@ class FerrisWheelPage extends React.Component {
           </div>
           <ClownTemplate>
                 <Link to="/murder-mystery/drink/"> Investigate ‍</Link>
-            </ClownTemplate>
+          </ClownTemplate>
       </div>
     )
   }

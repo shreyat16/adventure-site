@@ -13,6 +13,7 @@ class FilePage extends React.Component {
         <div>
           <ClownTitle>You open the file...</ClownTitle>
           <div className="text">SUSPECTS:</div>
+          <img className="mugshot" src={'/mugshot.png'} alt="mugshot" />;
           <ClownTemplate>
               <div>
                   <Link to="/murder-mystery/bobby/"> Talk to Bobby ‍</Link>
@@ -35,6 +36,9 @@ class FilePage extends React.Component {
           <div className="text">Are you ready to move on?</div>
           <div className="accuse"><Link to="/murder-mystery/accuse/"> ACCUSE ‍</Link></div>
         </div>
+        <h3 className="backbutton"><Link to="/murder-mystery/"> RETURN TO HOME ‍</Link></h3>
+        <h3 className="backbutton"><Link to="/"> RETURN TO MAIN MENU ‍</Link></h3>
+        <div className="footerstyle">Created by Shreya Thammana, © 2020 </div>
       </div>
     )
   }

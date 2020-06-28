@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+.accusebobby{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.bobbystatement{
+    font-family: 'Covered By Your Grace', cursive;
+    background-color: burlywood;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}

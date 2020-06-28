@@ -9,6 +9,7 @@ class WinnerPage extends React.Component {
     return (
       <div className="Winner">
         <div className="wintitle">YOU SAVED JUDY!</div>
+        <img className="winimg" src={'/winner.gif'} alt="trophy" />;
         <h3 className="back"><Link to="/murder-mystery/"> RETURN TO HOME ‍</Link></h3>
         <h3 className="back"><Link to="/"> RETURN TO MAIN MENU ‍</Link></h3>
       </div>

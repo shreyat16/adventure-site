@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+.accusebubbles{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.bubblesstatement{
+    font-family: 'Schoolbell', cursive;
+    background-color: burlywood;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}

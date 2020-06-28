@@ -4,6 +4,7 @@ import ClownTitle from "../../components/ClownTitle/ClownTitle"
 import NewsTemplate from "../../components/NewsTemplate/NewsTemplate"
 import "./index.css"
 import {Link} from 'gatsby'
+import Center from "../../components/Center/Center"
 
 class MurderMysteryPage extends Component {
   render() {
@@ -27,9 +28,13 @@ class MurderMysteryPage extends Component {
         she came to the fair with her mother and older brother Connor, and his girlfriend Kelly,
         her parents are offering up to a $1000 reward.</div>
         </NewsTemplate>
+        <Center><img className="judy" src={'/judy.png'} alt="judy" />;</Center>
         <ClownTemplate>
           <Link to="/murder-mystery/clown1/"> BEGIN INVESTIGATION ‍</Link>
         </ClownTemplate>
+        <h3 className="backbutton"><Link to="/murder-mystery/"> RETURN TO HOME ‍</Link></h3>
+        <h3 className="backbutton"><Link to="/"> RETURN TO MAIN MENU ‍</Link></h3>
+        <div className="footerstyle">Created by Shreya Thammana, © 2020 </div>
       </div>
     )
   }

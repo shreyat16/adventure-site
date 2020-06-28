@@ -9,6 +9,7 @@ class WinPage extends React.Component {
     return (
       <div className="Win">
         <div className="wintitle">YOU WON!</div>
+        <img className="winimg" src={'/winner.gif'} alt="trophy" />;
         <h3 className="back"><Link to="/zombies/"> RETURN TO HOME ‍</Link></h3>
         <h3 className="back"><Link to="/"> RETURN TO MAIN MENU ‍</Link></h3>
       </div>

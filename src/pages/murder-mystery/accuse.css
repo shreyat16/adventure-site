@@ -16,3 +16,17 @@
   .accusal{
     font-size: 50px;
   }
+
+  .footerstyle{
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    color: white;
+    font-size: 15px;
+  }
+
+.choose{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
